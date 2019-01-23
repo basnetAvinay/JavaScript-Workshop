@@ -1,6 +1,7 @@
 # JavaScript-Workshop
 
 Install readline-sync using following command in project directory to get input from console
+
   npm install readline-sync
   
 Example,

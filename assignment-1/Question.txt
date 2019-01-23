@@ -1,0 +1,118 @@
+Q1. Want to find out how old you'll be? Calculate it!
+
+Store your birth year in a variable.
+Store a future year in a variable.
+Calculate your 2 possible ages for that year based on the stored values. For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
+Output them to the screen like so: "I will be either NN or NN in YYYY", substituting the values.
+
+
+Q2. Calculate properties of a circle, using the definitions here.
+
+Store a radius into a variable.
+Calculate the circumference based on the radius, and output "The circumference is NN".
+Calculate the area based on the radius, and output "The area is NN".
+Q3. The Temperature Converter
+
+Store a celsius temperature into a variable.
+Convert it to fahrenheit and output "NN°C is NN°F".
+Now store a fahrenheit temperature into a variable.
+Convert it to celsius and output "NN°F is NN°C."
+
+Q4. The Calculator
+
+Write a function that will take one argument (a number) and perform the following operations:
+Take half of the number and store the result.
+Square the result of #1 and store that result.
+Calculate the area of a circle with the result of #2 as the radius.
+
+Q4. The MixUP
+
+Create a function called mixUp. It should take in two strings, and return the concatenation of the two strings (separated by a space) slicing out and swapping the first 2 characters of each. You can assume that the strings are at least 2 characters long. For example:
+
+mixUp('mix', 'pod'); // Outputs: 'pox mid'
+mixUp('dog', 'dinner'); // Outputs:  'dig donner'
+
+Q6. Given the percentage of a student, find out the division of that student. Conditions:
+
+Distinction if 100 > percentage >= 80
+First Division if 80 > percentage >= 60
+Second Division if 60 > percentage >= 40
+Third Division if 40 > percentage >= 32
+Else fail
+
+
+Q7. The Pluralizer
+
+Write a function named pluralize that: takes 2 arguments, a noun and a number. returns the number and pluralized form, like "5 cats" or "1 dog".
+
+For example:
+
+pluralize('cat', 1) // Outputs: 1 cat
+pluralize('cat', 2) // Outputs: 2 cats
+
+Q8. Determine whether a year is a leap year or not
+
+Steps:
+
+If the year is evenly divisible by 4, go to step 2. Otherwise, go to step 5.
+If the year is evenly divisible by 100, go to step 3. Otherwise, go to step 4.
+If the year is evenly divisible by 400, go to step 4. Otherwise, go to step 5.
+The year is a leap year (it has 366 days).
+The year is not a leap year (it has 365 days).
+
+
+Q9. Find the length of the string (entered by the user) without using the built-in function.
+
+Following is the example of output:
+
+Input string: javascript
+Output: Length of string: 10
+
+
+Q10. check whether a number (entered by the user) is a perfect number or not.
+
+A perfect number, a positive integer that is equal to the sum of its proper divisors. The smallest perfect number is 6, which is the sum of 1, 2, and 3.
+
+Input: 6
+Proper divisors of 6 are: 1, 2 and 3
+Sum of proper divisors = (1 + 2 + 3) which is equal to 6 (our input)
+Hence, 6 is perfect number
+
+
+Q11. check whether the number entered by the user is a strong number or not.
+
+Strong Numbers are the numbers whose sum of factorial of digits is equal to the original number. Given a number, check if it is a Strong Number or not.
+
+Input: 145
+Output: Yes
+Sum of digit factorials = 1! + 4! + 5!
+                        = 1 + 24 + 120
+                        = 145
+
+
+Q12. check whether the number entered by the user is a happy number or not. The user will enter 20 input number and program will check if it is a happy number or not.
+
+A happy number is starting with any positive integer, replace the number by the sum of the squares of its digits in base-ten, and repeat the process until the number either equals 1 (where it will stay), or it loops endlessly in a cycle that does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers)
+
+If a number is happy, then all members of its sequence are happy; if a number is unhappy, all members of the sequence are unhappy.
+
+Input: n = 19
+Output: 19 is Happy Number,
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 0^2 = 1
+As we reached to 1, 19 is a Happy Number.
+
+
+Q13. check whether a number entered by the user is magic number or not. The user will enter 1729 input number and program will calculate and check if it is magic number or not and print on the console.
+
+What is the magic number?
+Input: 1729
+Sum of digits of the given number.(1 + 7 + 2 + 9 => 19)
+The reverse of 19 is 91
+The product of digit sum and the reverse of digit sum.(19 X 91 = 1729)
+If the product value and the given input are same,
+then the given number is a magic number.(19 X 91 <=> 1729)
+
+Output: So, 1729 is a magic number.
